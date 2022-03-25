@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Screen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="flex flex-row" dir="rtl">
+        <!--start of div to arrange divs by row-->
+        <div class="w-1/6 ">
+            <!-- start of div to contain right elements-->
+            <!-- start of book cover -->
+            <div class="md:flex md:shrink-0 overflow-hidden m-5">
+                <img class=" h-48 w-full object-cover md:h-full md:w-48 hover:opacity-90 hover:scale-105 rounded-lg transition-all duration-1000  "
+                    src="https://cdn.aseeralkotb.com/storage/media/263792/conversions/آن-في-المرتفعات-الخضراء-15564-200x300-jpg.jpg"
+                    alt="آن في المرتفعات الخضراء" title="آن في المرتفعات الخضراء">
+            </div>
+            <!-- end of book cover -->
+        </div>
+        <!--end of div to contain right elements-->
+
+
+        <div class="w-1/2 ">
+            <!--start of div to contain middle elements-->
+            <!-- start of about book  -->
+            <div class="flex flex-col ">
+                <div
+                    class=" w-20  float-right inline-flex items-center pb-2 m-4 text-lg border-b-4 border-rose-500 text-blueGray-600 secondary-font-bold font-extrabold">
+                    <span class=" font-semibold text-transparent text-gray-500">عن
+                        الكتاب</span>
+                </div>
+                <div class="w-full float-right">
+                    <details class="bg-slate-50 ring-1 ring-black/10 open:shadow-lg p-6 rounded-lg">
+                        <summary class="text-sm leading-8 text-gray-900 font-semibold">
+                            "تخيل أنك كتبت قصة شائعة جدًّا لدرجة أن القُرّاء ما زالوا يقرؤونها بعد 100 عام من الآن".
+                            - ماريلو توسينانت - The Washington post
+                            "آن هي المحفز، الذي يسمح لماريلا الهشة والجامدة بالتعبير أخيرًا عن مشاعرها الإنسانية الأكثر
+                            نعومة
+                            والمدفونة منذ فترة طويلة".
+                            - مارغريت آتوود - The Guardian.
+                            "لقد
+                        </summary>
+                        <div class="mt-3 text-sm leading-8 text-gray-600">
+                            تمكنت لوسي مونتغمري من خلق النوع الأكثر مثالية من فتاة مفعمة بالحيوية".<br>
+                            غوندا بوند.<br>
+                            <br>
+                            يُقال أن جميع الأمور العظيمة تحدث بفعل أمور بسيطة. للوهلة الأولى، قد لا يبدو أن قرار رئيس
+                            الوزراء
+                            الكندي بإدراج جزيرة الأمير إدوارد في جدول جولاته السياسية، يمكن أن يكون له تأثير كبير أو
+                            صغير على
+                            قَدَر آن شيرلي، تلك الطفلة الصغيرة التي تعيش في المرتفعات الخضراء. لكن هذا ما حدث.
+                        </div>
+                    </details>
+                </div>
+            </div>
+            <!-- end of about book  -->
+            <!-- start of about author -->
+            <div class="flex flex-col ">
+                <div
+                    class=" w-20  float-right inline-flex items-center pb-2 m-4 text-lg border-b-4 border-rose-500 secondary-font-bold font-extrabold">
+                    <span class=" font-semibold text-transparent text-gray-500">عن
+                        الكاتب</span>
+                </div>
+                <div class="w-full float-right">
+                    <div
+                        class="mt-1 p-4 bg-slate-50 ring-1 ring-black/10  rounded-lg text-sm leading-8 text-gray-600 font-semibold">
+                        <h3 class="text-lg mb-1 hover:text-opacity-50 text-gray-700 font-bold ">لوسي مـود مـونتغمري</h3>
+                        عرفت لوسي مود مونتغمري وهي روائية كندية بسلسلة الروايات التي بدأتها بـ "آن في المرتفعات الخضراء"
+                        ثم أعقبتها بقصص شتّى.
+                        نُشِرت هذه الرواية لأول مرة عام 1908م.
+                        ولدت في كليفتون، جزيرة الأمير إدوارد 30 نوفمبر 1874م. ثم انتقلت لتعيش في ليسكديل، شمال أوكسبريدج
+                        بمدينة أونتاريو عام 1911 م.
+                        وعاشت هناك إلى أن توفيت في تورنتو يوم 24 أبريل 1942م ثم دُفنت في كافنديش، بجزيرة الأمير إدوارد.
+                    </div>
+
+                </div>
+            </div>
+            <!-- end of about author  -->
+        </div>
+        <!--end of div to contain middle elements-->
+
+
+        <div class="w-1/3 ">
+            <!--start of div to contain left elements-->
+            <!-- start of info table -->
+            <div class="float-left  w-2/3 m-10 shadow-sm hover:shadow-xl ring-1 ring-slate-100  rounded-xl " dir="rtl">
+                <dl class="text-xs rounded-lg divide-y shadow secondary-font-light divide-slate-100">
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="col-span-2 hover:text-opacity-70 p-3 pl-3 font-bold text-right whitespace-nowrap rounded-tr-lg border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            المؤلفين
+                        </dt>
+                        <dd class="col-span-3 p-3 rounded-tl-lg bg-slate-50 hover:bg-slate-100">
+                            <a href="#"
+                                class="font-bold transition-colors duration-300 ease-out  hover:text-opacity-70  text-slate-700 hover:text-slate-900 hover:no-underline"
+                                title="لوسي مـود مـونتغمري"><span>لوسي مـود مـونتغمري</span></a>
+                        </dd>
+                    </div>
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="col-span-2 hover:text-opacity-70 p-3 pl-3 font-bold text-right whitespace-nowrap border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            المترجمين
+                        </dt>
+                        <dd class="col-span-3 p-3 border-b border-transparent bg-slate-50 hover:bg-slate-100">
+                            <a href="#"
+                                class="font-bold transition-colors duration-300 ease-out   hover:text-opacity-70  text-slate-700 hover:text-slate-900 hover:no-underline"
+                                title="إيناس سمير"><span>إيناس سمير</span></a>
+                        </dd>
+                    </div>
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="col-span-2 hover:text-opacity-70 p-3 pl-3 font-bold text-right whitespace-nowrap  border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            الصفحات
+                        </dt>
+                        <dd class="col-span-3   hover:text-opacity-70  p-3 transition-colors duration-300 ease-out bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-800 hover:no-underline"
+                            >452
+                        </dd>
+                    </div>
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="col-span-2 hover:text-opacity-70 p-3 pl-3 font-bold text-right whitespace-nowrap  border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            سنة النشر
+                        </dt>
+                        <dd class="col-span-3 p-3   hover:text-opacity-70  transition-colors duration-300 ease-out bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-800 hover:no-underline">2021
+                        </dd>
+                    </div>
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="col-span-2 hover:text-opacity-70 p-3 pl-3 font-bold text-right whitespace-nowrap  border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            دار
+                            النشر
+                        </dt>
+                        <dd class="col-span-3 p-3 border-b border-transparent bg-slate-50 hover:bg-slate-100">
+                            <a href="#"
+                                class="font-bold transition-colors duration-300   hover:text-opacity-70  ease-out text-slate-700 hover:text-slate-900 hover:no-underline"
+                                title="عصير الكتب للترجمة والنشر والتوزيع"><span>عصير الكتب للترجمة
+                                    والنشر
+                                    والتوزيع</span></a>
+                        </dd>
+                    </div>
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="col-span-2 hover:text-opacity-70 p-3 pl-3 font-bold text-right whitespace-nowrap  border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            القسم
+                        </dt>
+                        <dd class="col-span-3 p-3 border-b border-transparent bg-slate-50 hover:bg-slate-100">
+                            <a href="#"
+                                class="hover:text-opacity-70  font-bold transition-colors duration-300 ease-out text-slate-700 hover:text-slate-900 hover:no-underline"
+                                title="أدب"><span itemprop="genre">أدب</span>
+                            </a>
+                        </dd>
+                    </div>
+                    <div class="grid grid-cols-5">
+                        <dt
+                            class="rounded-br-lg col-span-2 hover:text-opacity-70  p-3 pl-3 font-bold text-right whitespace-nowrap  border-b text-slate-600 bg-blue-50 hover:bg-blue-100 border-blue-200">
+                            مرات التنزيل
+                        </dt>
+                        <dd class="rounded-bl-lg col-span-3 p-3   hover:text-opacity-70  transition-colors duration-300 ease-out bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-800 hover:no-underline"
+                            itemprop="numberOfPages">100.000
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+            <!-- end of info table -->
+            <!-- start of buttons -->
+            <div class="float-left">
+                <button
+                    class="font-semibold  text-slate-900 p-2 bg-rose-500 hover:bg-green-500 hover:scale-110 transition-all duration-1000 rounded-xl m-2">
+                    <div class="flex flex-row">
+                        <span class="ml-2"> تحميل </span>
+                        <img class="w-6 h-6"
+                            src="https://cdn-icons-png.flaticon.com/512/937/937285.png?w=740&t=st=1647811320~exp=1647811920~hmac=0c224fe6824bf073ec326587797db25eda6f2a57660b96d957b424b9863a6b07">
+                    </div>
+                </button>
+
+                <button
+                    class="font-semibold text-slate-900 p-2 bg-rose-500 hover:bg-green-500 hover:scale-110 transition-all duration-1000 rounded-xl m-2">
+                    <div class="flex flex-row">
+                        <span class="ml-2"> قراءة </span>
+                        <img class="w-6 h-6"
+                            src="https://cdn-icons-png.flaticon.com/512/767/767956.png?w=740&t=st=1647813132~exp=1647813732~hmac=69294d6ab58ba93544cdb058f7d9c89e3b4ba8d2cc20ee63b34424fb7640a654">
+                    </div>
+                </button>
+
+                <button
+                    class="font-semibold text-slate-900 p-2 bg-rose-500 hover:bg-green-500 hover:scale-110 transition-all duration-1000 rounded-xl m-2">
+                    <div class="flex flex-row">
+                        <span class="ml-2"> أضف مراجعتك </span>
+                        <img class="w-6 h-6"
+                            src="https://cdn-icons-png.flaticon.com/512/1246/1246220.png?w=740&t=st=1647813210~exp=1647813810~hmac=f7996c8981fe665cd41f40d3def7c62a0a01c6101315b0b85333567cd8764f80">
+                    </div>
+                </button>
+            </div>
+
+            <!-- end of buttons -->
+        </div>
+        <!--end of div to contain middle elements-->
+    </div>
+    <!--end of div to arrange divs by row-->
+</body>
+
+</html>
